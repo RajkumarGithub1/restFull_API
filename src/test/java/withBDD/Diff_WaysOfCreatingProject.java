@@ -2,7 +2,7 @@ package withBDD;
 
 import org.testng.annotations.Test;
 
-import generic.POJO;
+import genericLib.POJO;
 import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.*;

@@ -1,4 +1,4 @@
-package generic;
+package genericLib;
 
 public class POJO 
 {
@@ -7,7 +7,14 @@ public class POJO
 	String status;
 	int teamSize;
 	
-	
+	/**
+	 * @author DELL
+	 * this is overloading method for POST methods complete data
+	 * @param createdBy
+	 * @param projectName
+	 * @param status
+	 * @param teamSize
+	 */
 	public POJO(String createdBy, String projectName, String status, int teamSize) 
 	{
 		this.createdBy = createdBy;
@@ -16,7 +23,8 @@ public class POJO
 		this.teamSize = teamSize;
 	}
 
-
+	
+	
 	public String getCreatedBy() {
 		return createdBy;
 	}

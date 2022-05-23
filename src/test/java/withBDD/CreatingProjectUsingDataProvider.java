@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.given;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import generic.POJO;
+import genericLib.POJO;
 import io.restassured.http.ContentType;
 
 public class CreatingProjectUsingDataProvider 

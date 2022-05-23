@@ -1,4 +1,4 @@
-package practice1;
+package EndToEndPractice;
 
 import static io.restassured.RestAssured.given;
 
