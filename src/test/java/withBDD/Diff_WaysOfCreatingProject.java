@@ -38,7 +38,7 @@ public class Diff_WaysOfCreatingProject
 	@Test
 	public void createfromJSONFile()
 	{
-		File f=new File("./file.json");
+		File f=new File("./file.json");   //JSON file external
 		
 				given()
 				.contentType(ContentType.JSON)

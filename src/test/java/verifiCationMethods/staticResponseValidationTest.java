@@ -21,7 +21,6 @@ public class staticResponseValidationTest
 		
 		Assert.assertEquals(actData, expData);
 		
-		
 	}
 	
 	
