@@ -23,7 +23,7 @@ public class OAuth2Test
 		String token = rsp.jsonPath().get("access_token");
 		System.out.println(token+"```````````````````````token``generated````````````==");
 		
-		
+	
 		given()
 		.auth()
 		.oauth2(token)

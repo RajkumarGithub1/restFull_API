@@ -1,5 +1,6 @@
 package EndToEndPractice;
 
+import io.restassured.authentication.AuthenticationScheme;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 

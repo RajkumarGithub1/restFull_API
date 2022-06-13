@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-20T15:21:20 IST" name="Default suite" finished-at="2022-05-20T15:21:29 IST" duration-ms="8749">
+  <suite started-at="2022-05-28T10:45:08 IST" name="Default suite" finished-at="2022-05-28T10:45:18 IST" duration-ms="10303">
     <groups>
     </groups>
-    <test started-at="2022-05-20T15:21:20 IST" name="Default test" finished-at="2022-05-20T15:21:29 IST" duration-ms="8749">
-      <class name="EndToEndPractice.EndToEndscenario">
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:EndToEndPractice.EndToEndscenario@130c12b7]" started-at="2022-05-20T15:21:19 IST" name="connectToDB" finished-at="2022-05-20T15:21:20 IST" duration-ms="707" status="PASS">
+    <test started-at="2022-05-28T10:45:08 IST" name="Default test" finished-at="2022-05-28T10:45:18 IST" duration-ms="10303">
+      <class name="authentication.BearerToken">
+        <test-method signature="bearerToken()[pri:0, instance:authentication.BearerToken@2ed2d9cb]" started-at="2022-05-28T10:45:08 IST" name="bearerToken" finished-at="2022-05-28T10:45:18 IST" duration-ms="10032" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectToDB -->
-        <test-method signature="endtoendScenario()[pri:0, instance:EndToEndPractice.EndToEndscenario@130c12b7]" started-at="2022-05-20T15:21:20 IST" name="endtoendScenario" finished-at="2022-05-20T15:21:28 IST" duration-ms="8531" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtoendScenario -->
-        <test-method is-config="true" signature="closeConnectionToDB()[pri:0, instance:EndToEndPractice.EndToEndscenario@130c12b7]" started-at="2022-05-20T15:21:29 IST" name="closeConnectionToDB" finished-at="2022-05-20T15:21:29 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeConnectionToDB -->
-      </class> <!-- EndToEndPractice.EndToEndscenario -->
+        </test-method> <!-- bearerToken -->
+      </class> <!-- authentication.BearerToken -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
